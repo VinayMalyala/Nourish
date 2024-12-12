@@ -14,7 +14,7 @@ html, body{
 
 .home-section{
     min-height: 60vh;
-    background-color: #aff0fa;
+    background-color: #CCE9FF;
     border-radius: 19px;
     padding: 13px 30px;
 }
@@ -81,6 +81,13 @@ nav .nav-button-container button{
     cursor: pointer;
 }
 
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+}
+
 .left-section{
     height: 100%;
     width: 55%;
@@ -123,10 +130,18 @@ nav .nav-button-container button{
     color: #fff;
     border: none;
     border-radius: 29px;
-    padding: 12px 20px;
+    padding: 10px 20px;
     display: flex;
+    border: 2px solid #000;
     align-items: center;
     gap: 15px;
+}
+
+.reserve-btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    transition: all 0.5s ease-in-out;
 }
 
 .reserve-btn img{
@@ -148,6 +163,12 @@ nav .nav-button-container button{
     padding: 14px 24px;
 }
 
+.consultation-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
 .metrics{
     display: flex;
     gap: 25px;
@@ -158,10 +179,21 @@ nav .nav-button-container button{
     height: 170px;
     width: 200px;
     border-radius: 17px;
-    background-color: #4593ed;
+    background-color: #2D7DDA;
     color: #fff;
     padding: 40px 15px;
     position: relative;
+}
+
+.metric-card:hover{
+    background-color: #E5F4FF;
+    color: #2D7DDA;
+    transition: all 0.5s ease-in-out;
+}
+
+.metric-card:hover i{
+    color: #2D7DDA;
+    transition: all 0.5s ease-in-out;
 }
 
 .metric-card h2{
@@ -184,4 +216,52 @@ nav .nav-button-container button{
     position: absolute;
     right: 5%;
     top: 5%;
+}
+
+.light{
+    background-color: #E5F4FF;
+    color: #2D7DDA;
+}
+
+.light:hover{
+    background-color: #2D7DDA;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+}
+
+.light i{
+    color: #2D7DDA;
+}
+
+.light:hover i{
+    color: #fce023;
+    transition: all 0.5s ease-in-out;
+}
+
+.right-section{
+    height: 500px;
+    margin: 15px 0;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+.part-one{
+    height: 450px;
+    width: 30%;
+    border-radius: 20px;
+    background: url("images/mountains-1.jpeg");
+    background-position: center left;
+    background-position: -1% 46%;
+}
+
+.part-two{
+    height: 450px;
+    width: 63%;
+    border-radius: 20px;
+    background: url("images/mountains-1.jpeg");
+    background-position: 115% 46%;
 }
