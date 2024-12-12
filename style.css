@@ -434,7 +434,18 @@ nav .nav-button-container button{
     right: 5%;
 }
 
-.program a{
+.program{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.program-left{
+    width: 50%;
+    padding: 30px 20px;
+}
+
+.program-left a{
     color: #2D7DDA;
     background-color: #CCE9FF;
     font-family: "Roboto", sans-serif;
@@ -442,6 +453,27 @@ nav .nav-button-container button{
     font-size: 17px;
     border-radius: 30px;
     text-decoration: none;
+}
+
+.program-left h2{
+    font-size: 60px;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.program-left h2 i{
+    color: #fce023;
+    font-weight: 600;
+}
+
+.program-left h2 span{
+    color: #2D7DDA;
+}
+
+.program-left p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 .program-left button{
@@ -454,6 +486,7 @@ nav .nav-button-container button{
     border: 2px solid #000;
     align-items: center;
     gap: 15px;
+    margin: 20px 0;
 }
 
 .program-left button:hover{
@@ -469,4 +502,317 @@ nav .nav-button-container button{
     padding: 3px;
     height: 25px;
     width: 25px;
+}
+
+.program-right-section{
+    height: 500px;
+    margin: 15px 0;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.program-part-one{
+    height: 450px;
+    width: 63%;
+    border-radius: 20px;
+    background: url("images/mountains-1.jpeg");
+    background-position: center left;
+    background-position: -10% 46%;
+}
+
+.program-part-two{
+    height: 450px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.program-part-two .one{
+    height: 290px;
+    background-image: url("images/mountains-1.jpeg");
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-position: 102% 34%;
+}
+
+.program-part-two .two{
+    height: 140px;
+    background-image: url("images/mountains-1.jpeg");
+    border-radius: 20px;
+    background-position: 102% 60%;
+}
+
+.bars{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.bars p{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.bars div{
+    height: 5px;
+    width: 150px;
+    border-radius: 10px;
+    background: #E5F4FF;
+}
+
+.bars div:nth-child(3){
+    background: #2D7DDA;
+}
+
+.review-section-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.review-card{
+    height: 250px;
+    width: 250px;
+    background-color: #F9F9F9;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.review-card:hover{
+    background-color: #2D7DDA;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.review-card:hover .trip-time{
+    border: 1px solid #fff;
+}
+
+.review-card h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.review-card p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.review-card span{
+    font-weight: 500;
+}
+
+.portfolio{
+    margin: 40px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.portfolio p:nth-child(1){
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.portfolio p:nth-child(2){
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.portfolio img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.review-card.blue{
+    background-color: #2D7DDA;
+    color: #fff;
+}
+
+.review-card.blue:hover{
+    background-color: #F9F9F9;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.trip-time{
+    font-size: 14px !important;
+    border: 1px solid #000;
+    width: 170px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.trip-time div{
+    height: 5px;
+    width: 5px;
+    background-color: green;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 4px;
+}
+
+.review-card.blue .trip-time{
+    border: 1px solid #fff;
+}
+
+.review-card:hover .trip-time div{
+    background-color: #fff;
+}
+
+
+.blue:hover .trip-time{
+    border: 1px solid #000;
+}
+
+.blue .trip-time div{
+    background-color: #fff;
+}
+
+.blue:hover .trip-time div{
+    background-color: green;
+}
+
+.faq{
+    margin: 50px 0;
+    padding: 30px 0;
+}
+
+.faq>a{
+    color: #2D7DDA;
+    background-color: #CCE9FF;
+    font-family: "Roboto", sans-serif;
+    padding: 6px 12px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.faq-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.faq-heading h2{
+    font-size: 44px;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.faq-heading h2 span{
+    color: #2D7DDA;
+}
+
+.faq-heading h2 i{
+    color: #fce023;
+    font-weight: 600;
+}
+
+.faq-heading img{
+    position: absolute;
+    top: 70%;
+    left: 23%;
+    width: 300px;
+    cursor: pointer;
+}
+
+.faq-heading p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.faq-heading p span{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.faq-section-cards{
+    padding: 30px 20px;
+}
+
+.faq-card{
+    background-color: #F9F9F9;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 25px 30px;
+    margin: 20px 0;
+}
+
+.faq-card-heading{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.faq-card-number{
+    color: #2D7DDA;
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.faq-card-heading h4{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.faq-card p{
+    font-size: 16px;
+    margin: 20px 30px;
+    display: none;
+}
+
+.faq-card p span{
+    font-weight: 500;
+}
+
+.faq-card i{
+    font-size: 26px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.faq-card:hover i{
+    background-color: #fff;
+    color: #2D7DDA;
+    rotate: 180deg;
+}
+
+.faq-card:hover{
+    background-color: #2D7DDA;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.faq-card:hover a{
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.faq-card:hover p{
+    display: block;
+    /* transition: all 0.5s ease-in-out; */
 }
