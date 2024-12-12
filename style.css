@@ -86,6 +86,7 @@ nav .nav-button-container button{
     height: 100%;
     display: flex;
     gap: 30px;
+    position: relative;
 }
 
 .left-section{
@@ -109,6 +110,12 @@ nav .nav-button-container button{
 .title-card h1 i{
     color: #fce023;
     font-weight: 600;
+}
+
+.title-card .underline{
+    position: absolute;
+    top: 21%;
+    width: 31%;
 }
 
 .title-card p{
@@ -148,12 +155,9 @@ nav .nav-button-container button{
     background: #fff;
     border-radius: 19px;
     padding: 3px;
-    /* margin-left: 10px; */
-}
-
-.reserve-btn img{
     height: 25px;
     width: 25px;
+    /* margin-left: 10px; */
 }
 
 .consultation-btn{
@@ -264,4 +268,205 @@ nav .nav-button-container button{
     border-radius: 20px;
     background: url("images/mountains-1.jpeg");
     background-position: 115% 46%;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    right: 6%;
+    bottom: 14%;
+}
+
+.tags p{
+    background-color: #515D5D;
+    backdrop-filter: blur(10px);
+    font-family: "Roboto", sans-serif;
+    padding: 6px 13px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.tags i{
+    color: #fce023;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.tags p:nth-child(1){
+    background-color: #fff;
+    color: #000;
+}
+
+.features{
+    padding: 30px 0;
+}
+
+.features-section-heading{
+    text-align: center;
+    margin: 50px 0;
+    position: relative;
+}
+
+.features-section-heading a{
+    color: #2D7DDA;
+    background-color: #CCE9FF;
+    font-family: "Roboto", sans-serif;
+    padding: 6px 12px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.features-section-heading h2{
+    font-size: 60px;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.features-section-heading h2:nth-child(2){
+    color: #2D7DDA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.features-section-heading h2 img{
+    height: 55px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.features-section-heading h2 i{
+    color: #fce023;
+    font-weight: 600;
+}
+
+.features-section-heading p{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+}
+
+.features-section-heading>img{
+    position: absolute;
+    top: 45%;
+    width: 500px;
+}
+
+.feature-section-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature-card{
+    height: 250px;
+    width: 250px;
+    background-color: #F9F9F9;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 15px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.feature-card:hover{
+    background-color: #2D7DDA;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.blue{
+    background-color: #2D7DDA;
+    color: #fff;
+}
+
+.blue:hover{
+    background-color: #F9F9F9;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.blue .non-toxic-img{
+    display: none;
+}
+
+.blue .non-toxic-white{
+    display: block;
+}
+
+.blue:hover .non-toxic-img{
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.blue:hover .non-toxic-white{
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.feature-card h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.feature-card p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.feature-card span{
+    font-weight: 500;
+}
+
+.feature-card img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 5%;
+    right: 5%;
+}
+
+.program a{
+    color: #2D7DDA;
+    background-color: #CCE9FF;
+    font-family: "Roboto", sans-serif;
+    padding: 6px 12px;
+    font-size: 17px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.program-left button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 29px;
+    padding: 10px 20px;
+    display: flex;
+    border: 2px solid #000;
+    align-items: center;
+    gap: 15px;
+}
+
+.program-left button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.program-left button img{
+    background: #fff;
+    border-radius: 19px;
+    padding: 3px;
+    height: 25px;
+    width: 25px;
 }
