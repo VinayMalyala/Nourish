@@ -443,6 +443,13 @@ nav .nav-button-container button{
 .program-left{
     width: 50%;
     padding: 30px 20px;
+    position: relative;
+}
+
+.program-left>img{
+    position: absolute;
+    top: 43%;
+    width: 390px;
 }
 
 .program-left a{
@@ -815,4 +822,141 @@ nav .nav-button-container button{
 .faq-card:hover p{
     display: block;
     /* transition: all 0.5s ease-in-out; */
+}
+
+.get-in-touch{
+    background-color: #CCE9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.contact-us{
+    width: 50%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.contact-us>a{
+    color: #2D7DDA;
+    background-color: #CCE9FF;
+    font-family: "Roboto", sans-serif;
+    padding: 6px 12px;
+    font-size: 17px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.contact-us h3{
+    font-size: 39px;
+    font-family: "Lora", serif;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.contact-us h3 i{
+    color: #fce023;
+    font-weight: 600;
+}
+
+.contact-us img{
+    position: absolute;
+    top: 38%;
+    width: 330px;
+}
+
+.contact-us p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.contact-us p span{
+    font-weight: 500;
+}
+
+
+.address{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.address div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-us div i{
+    color: #2D7DDA;
+    background-color: #CCE9FF;
+    font-family: "Roboto", sans-serif;
+    padding: 6px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+.details{
+    width: 45%;
+    padding: 30px 20px;
+}
+
+.details form{
+    padding: 30px;
+}
+
+.get-in-touch button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 29px;
+    padding: 10px 20px;
+    display: flex;
+    border: 2px solid #000;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+    position: absolute;
+    bottom: -3%;
+    right: 31%;
+}
+
+.get-in-touch button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.get-in-touch button img{
+    background: #fff;
+    border-radius: 19px;
+    padding: 3px;
+    height: 25px;
+    width: 25px;
+}
+
+.name{
+    display: flex;
+    gap: 30px;
+}
+
+.details label{
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.details input, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #D1E3F7;
+    outline: none;
+    margin: 10px;
 }
