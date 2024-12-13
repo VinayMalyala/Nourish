@@ -951,6 +951,7 @@ nav .nav-button-container button{
 .details label{
     font-family: "Roboto";
     font-size: 15px;
+    padding: 5px 15px;
 }
 
 .details input, textarea{
@@ -1244,6 +1245,11 @@ footer{
         font-size: 14px;
     }
 
+    .details label{
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+
     .get-in-touch button{
         right: 26%;
     }
@@ -1276,6 +1282,229 @@ footer{
 
     .final-section-left button img{
         display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .hero{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-section, .right-section{
+        width: 100%; 
+    }
+
+    .title-card .underline{
+        top: 9%;
+        width: 40%;
+    }
+
+    .reserve-btn{
+        font-size: 12px;
+        height: 44px;
+        width: 170px;
+        justify-content: space-between;
+    }
+
+    .reserve-btn img{
+        display: block;
+        height: 20px;
+        width: 20px;
+    }
+
+    .features-section-heading h2{
+        font-size: 40px;
+    }
+
+    .features-section-heading>img{
+        width: 300px;
+    }
+
+    .features-section-heading h2 img{
+        height: 45px;
+        width: 120px;
+    }
+
+    .features-section-heading p{
+        font-size: 15px;
+    }
+
+    .feature-section-cards{
+        padding: 10px 90px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .program{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .program-left{
+        text-align: center;
+        width: 100%;
+    }
+
+    .program-left a{
+        font-size: 14px;
+    }
+
+    .program-left h2{
+        font-size: 38px;
+    }
+
+    .program-left>img{
+        width: 250px;
+        top: 46%;
+        left: 32%;
+    }
+
+    .program-left p{
+        font-size: 14px;
+    }
+
+    .program-left button{
+        font-size: 12px;
+        margin: 20px auto;
+    }
+
+    .program-left button img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .program-right-section{
+        width: 100%;
+    }
+
+    .review-section-cards{
+        gap: 20px;
+        padding: 10px 90px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .faq>a{
+        font-size: 13px;
+    }
+
+    .faq-heading h2{
+        font-size: 25px;
+    }
+
+    .faq-heading img{
+        width: 220px;
+    }
+
+    .faq-heading p{
+        font-size: 13px;
+    }
+
+    .faq-card-heading a{
+        font-size: 19px;
+    }
+
+    .faq-card-heading h4{
+        font-size: 20px;
+    }
+
+    .faq-card p{
+        font-size: 14px;
+    }
+
+    .faq-card i{
+        font-size: 14px;
+    }
+
+    .get-in-touch{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 50px;
+    }
+
+    .contact-us{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-us>a{
+        font-size: 13px;
+    }
+
+    .contact-us img{
+        width: 170px;
+        top: 34%;
+        left: 45%;
+    }
+
+    .address{
+        justify-content: center;
+    }
+
+    .details{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .details label{
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .get-in-touch button{
+        right: 40%;
+    }
+
+    .final-section{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 70px;
+    }
+
+    .final-section-left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .final-section-left h3{
+        font-size: 28px;
+    }
+
+    .final-section-left>img{
+        width: 300px;
+        top: 27%;
+        left: 10%;
+    }
+
+    .final-section-left div{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .final-section-left p{
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .final-section-left button{
+        font-size: 12px;
+        margin: 20px auto;
+    }
+
+    .final-section-left button img{
+        display: block;
+        height: 20px;
+        width: 20px;
+    }
+
+    .final-right-section{
+        width: 100%;
+    }
+
+    footer li{
+        font-size: 14px;
     }
 }
 
