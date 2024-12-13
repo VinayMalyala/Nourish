@@ -1129,3 +1129,181 @@ footer{
     font-weight: 450;
     text-decoration: underline;
 }
+
+@media (max-width: 1025px){
+
+    .nav-items:nth-child(4), .nav-items:nth-child(5){
+        display: none;
+    }
+
+    .title-card h1{
+        font-size: 50px;
+    }
+
+    .title-card p{
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .title-card .underline{
+        top: 17%;
+    }
+
+    .reserve-btn{
+        height: 38px;
+        width: 140px;
+        font-size: 12px;
+    }
+
+    .consultation-btn{
+        height: 38px;
+        width: 140px;
+        font-size: 12px;
+        padding-bottom: 22px;
+    }
+
+    .reserve-btn img{
+        display: none;
+    }
+
+    .metric-card:nth-child(3){
+        display: none;
+    }
+
+    .metric-card h2, .metric-card i{
+        font-size: 35px;
+    }
+
+    .part-one{
+        background-position: 35% 0;
+    }
+
+    .tags{
+        display: none;
+    }
+
+    .features-section-heading h2{
+        font-size: 50px;
+    }
+
+    .features-section-heading>img{
+        width: 400px;
+    }
+
+    .feature-section-cards{
+        gap: 15px;
+    }
+
+    .feature-card h3{
+        font-size: 20px;
+    }
+
+    .program-left h2{
+        font-size: 50px;
+    }
+
+    .program-left>img{
+        width: 300px;
+        top: 39%;
+    }
+
+    .review-section-cards{
+        gap: 15px;
+    }
+
+    .faq-heading h2{
+        font-size: 40px;
+    }
+
+    .faq-card h4{
+        font-size: 22px;
+    }
+
+    .faq-card p{
+        font-size: 14px;
+    }
+
+    .faq-card i{
+        font-size: 22px;
+    }
+
+    .contact-us a{
+        font-size: 15px;
+    }
+
+    .contact-us h3{
+        font-size: 30px;
+    }
+
+    .contact-us img{
+        width: 200px;
+        top: 34%;
+    }
+
+    .contact-us p{
+        font-size: 14px;
+    }
+
+    .get-in-touch button{
+        right: 26%;
+    }
+
+    .get-in-touch button img{
+        display: none;
+    }
+
+    .final-section{
+        gap: 30px;
+    }
+
+    .final-section-left h3{
+        font-size: 30px;
+    }
+
+    .final-section-left>img{
+        width: 250px;
+        top: 25%;
+    }
+
+    .final-section-left p{
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .final-section-left button{
+        font-size: 12px;
+    }
+
+    .final-section-left button img{
+        display: none;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .home-section{
+        width: 100vw;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .hero{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%; 
+    }
+
+    .left-section, .right-section{
+        width: 100%; 
+    }
+
+    .right-section .part-one, .right-section .part-two {
+        width: 100%;
+    }
+
+    .metric-card:nth-child(3){
+        display: none;
+    }
+}
