@@ -950,7 +950,7 @@ nav .nav-button-container button{
 
 .details label{
     font-family: "Roboto";
-    font-size: 15px;
+    font-size: 17px;
     padding: 5px 15px;
 }
 
@@ -1129,6 +1129,12 @@ footer{
 .privacy{
     font-weight: 450;
     text-decoration: underline;
+}
+
+@media (max-width: 1246px) {
+    .metric-card h2, .metric-card i{
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 1025px){
@@ -1510,6 +1516,26 @@ footer{
 
 @media (max-width: 426px) {
 
+    .title-card h1{
+        font-size: 40px;
+    }
+
+    .title-card .underline{
+        top: 7%;
+        width: 60%;
+    }
+
+    .reserve-btn{
+        font-size: 12px;
+        height: 38px;
+        width: 140px;
+        justify-content: space-between;
+    }
+
+    .reserve-btn img{
+        display: none;
+    }
+
     .home-section{
         width: 100vw;
     }
@@ -1520,7 +1546,6 @@ footer{
 
     .hero{
         flex-direction: column;
-        gap: 20px;
         width: 100%; 
     }
 
@@ -1528,11 +1553,262 @@ footer{
         width: 100%; 
     }
 
-    .right-section .part-one, .right-section .part-two {
-        width: 100%;
+    .metrics{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .metric-card{
+        height: 150px;
+        width: 150px;
     }
 
     .metric-card:nth-child(3){
+        display: block;
+    }
+
+    .metric-card h2, .metric-card i{
+        font-size: 28px;
+    }
+
+    .metric-card p{
+        font-size: 14px;
+    }
+
+    .right-section{
+        width: 100%;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .part-one, .part-two{
+        height: 350px;
+    }
+
+    .features-section-heading{
+        text-align: center;
+    }
+
+    .features-section-heading a{
+        font-size: 15px;
+    }
+
+    .features-section-heading h2{
+        font-size: 20px;
+    }
+
+    .features-section-heading h2 img{
+        width: 100px;
+    }
+
+    .features-section-heading h2:nth-child(2){
+        gap: 5px
+    }
+
+    .features-section-heading>img{
+        top: 36%;
+        right: 4%;
+        width: 150px;
+    }
+
+    .feature-card{
+        height: 190px;
+        width: 190px;
+    }
+
+    .feature-card h3{
+        font-size: 18px;
+    }
+
+    .feature-card p{
+        font-size: 13px;
+    }
+
+    .feature-card img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .program-left a{
+        font-size: 14px;
+    }
+
+    .program-left h2{
+        font-size: 30px;
+    }
+
+    .program-left>img{
+        width: 200px;
+        top: 37%;
+        left: 25%;
+    }
+
+    .program-left p{
+        font-size: 14px;
+    }
+
+    .program{
+        padding: 10px;
+    }
+
+    .program-right-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .program-part-one{
+        height: 320px;
+    }
+
+    .program-part-two .one{
+        height: 320px;
+    }
+
+    .program-part-two .one{
+        height: 220px;
+    }
+
+    .program-part-two .two{
+        height: 100px;
+    }
+
+    .review-card{
+        height: 180px;
+        width: 180px;
+        padding: 10px 15px;
+    }
+
+    .review-card a{
+        display: none;
+    }
+
+    .review-card p{
+        font-size: 12px;
+    }
+
+    .faq-heading h2{
+        font-size: 20px;
+    }
+
+    .faq-heading img{
+        width: 150px;
+        top: 50%;
+        left: 50%;
+    }
+
+    .faq-heading{
+        flex-direction: column;
+    }
+
+    .faq-heading a{
+        font-size: 13px;
+    }
+
+    .faq-card p{
+        font-size: 13px;
+    }
+
+    .faq-card p br{
+        display: none;
+    }
+
+    .faq-card-heading a{
+        font-size: 13px;
+    }
+
+    .faq-card-heading h4{
+        font-size: 14px;    
+    }
+
+    .faq-card i{
+        font-size: 14px;
+    }
+
+    .get-in-touch{
+        padding: 20px;
+    }
+
+    .contact-us a{
+        font-size: 12px;
+    }
+
+    .contact-us h3{
+        font-size: 25px;
+    }
+
+    .contact-us img{
+        width: 150px;
+        top: 26%;
+        left: 30%;
+    }
+
+    .address{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .details{
+        padding: 0px;
+    }
+
+    .get-in-touch button{
+        font-size: 12px;
+        padding: 5px 9px;
+        right: 35%;
+    }
+
+    .final-section{
+        padding: 20px;
+    }
+
+    .final-section-left h3{
+        font-size: 25px;
+    }   
+
+    .final-section-left>img{
+        width: 200px;
+        top: 20%;
+        left: 14%;
+    }
+
+    .final-section button img{
+        display: none;
+    }
+
+    .final-part-one{
+        background-position: 10% 40%;
+    }
+    
+    .final-part-one, .final-part-two{
+        height: 250px;
+        background-position: 10% 40%;
+    }
+
+    .footer-logo ul{
+        display: none;
+    }
+}
+
+@media (max-width: 668px){
+    .nav-links{
+        display: none;
+    }
+
+    .final-part-one{
+        background-position: 10% 40%;
+    }
+    
+    .final-part-one, .final-part-two{
+        height: 250px;
+        background-position: 10% 40%;
+    }
+}
+
+@media (max-width: 1246px){
+    
+    .tags{
         display: none;
     }
 }
